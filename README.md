@@ -14,7 +14,7 @@ No external dependencies required – designed for simplicity, speed, and flexib
 
 ```
 ./port_scanner.sh [-i <IP or subnet>] [-f <file>] [-p <ports>] [-t <min>-<max>]
-./portscanner.sh -i 192.168.1.1 -p 20-80 -t 100-500
-./portscanner.sh -i 192.168.1.1/24  
-./portscanner.sh -f hosts.txt -p 20,30,50 -t 200-800
+./portscanner.sh -i 192.168.1.1 -p 20-80 -t 100-500 -o output.txt
+./portscanner.sh -i 192.168.1.1/24 -o output.txt
+./portscanner.sh -f hosts.txt -p 20,30,50 -t 200-800 
 ```
